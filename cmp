@@ -1,0 +1,4 @@
+ <lightning:button   class="{!(or(and(v.selectedStage ,v.selectedStage == stageVar),v.currentStage == stageVar)) ? 'btn btn-primary rightButtonSmall' : 'btn btn-primary leftButtonSmall'}"
+                           label="{!stageVar}" 
+                           value="{!stageVar}" 
+                           onclick="{!c.handleClick1}"/>
